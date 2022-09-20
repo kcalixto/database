@@ -37,7 +37,7 @@ CREATE TABLE funcionarios (
   ,cpf varchar(11) UNIQUE
   ,cidade varchar(30) 
   ,salario numeric(10,2)
-  ,cargo varchar(20)
+  ,nroa varchar(20)
 );
 
 CREATE TABLE consultas (

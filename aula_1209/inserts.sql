@@ -94,41 +94,46 @@ INSERT INTO pacientes (nome, idade, cidade, cpf, doenca) VALUES
     "sarampo"
 );
 
-INSERT INTO funcionarios (nome, idade, cidade, salario, cpf) VALUES 
+INSERT INTO funcionarios (nome, idade, cidade, salario, cpf, nroa) VALUES 
 (
 	"Rita",
     32,
     "São José",
     1200,
-    "20000100000"
+    "20000100000",
+    1
 ),
 (
 	"Maria",
     55,
     "Palhoca",
     1220,
-    "30000110000"
+    "30000110000",
+    2
 ),
 (
 	"Caio",
     45,
     "Florianópolis",
     1100,
-    "41000100000"
+    "41000100000",
+    2
 ),
 (
 	"Carlos",
     44,
     "Florianópolis",
     1200,
-    "51000110000"
+    "51000110000",
+    3
 ),
 (
 	"Paula",
     33,
     "Florianópolis",
     2500,
-    "61000111000"
+    "61000111000",
+    1
 );
 
 INSERT INTO consultas(codm, codp, data, hora) VALUES 
